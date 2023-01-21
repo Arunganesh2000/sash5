@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Kanit&family=Merienda+One&family=Oswald&family=Poppins&family=Unbounded&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Unbounded';
+}
+
+
+/*---home---*/
+section{
+    padding: 2rem 7%;
+}
+
+#home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("images/WhatsApp\ Image\ 2.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hh2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar-nav{
+    text-indent: 30px;
+}
+.navbar-nav  .nav-items:hover{
+   background-color: #18CBA0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll{
+    background-image: url(images/Slide\ Animation\ bar\ BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+}
+.scroll marquee{
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color:#18CBA0 ;
+    letter-spacing: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+marquee p{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.product{
+    color: #18CBA0;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+}
+.brand:hover{
+    color: #18CBA0;
+}
+.Animation:hover{
+    color: #18CBA0;
+}
+.UI:hover{
+    color: #18CBA0;
+}
+.Digital:hover{
+    color: #18CBA0;
+}
+.Development:hover{
+    color: #18CBA0;
+}
+.Animation:hover{
+    color: #18CBA0;
+}
+.btn:hover{
+    color: #18CBA0;
+}
+.learing:hover{
+    color: #18CBA0;
+    border: 3px solid #18CBA0;
+}
+.weather:hover{
+    color: #18CBA0;
+    border: 3px solid #18CBA0;
+}
+.ben:hover{
+    color: #18CBA0;
+    border: 3px solid #18CBA0;
+}
+.growth:hover{
+    color: #18CBA0;
+    border: 3px solid #18CBA0;
+}
+
+
